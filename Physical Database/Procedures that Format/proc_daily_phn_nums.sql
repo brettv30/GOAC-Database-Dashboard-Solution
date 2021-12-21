@@ -1,0 +1,12 @@
+-- Procedure to remove all hyphens from daily phone numbers
+
+DELIMITER //
+
+CREATE PROCEDURE UPDATE_DAILY_PHONE_NUMBERS()
+BEGIN
+UPDATE ODS_SALES_DATA_SMALL
+SET CUST_PHN_NO = REPLACE(CUST_PHN_NO, '-', ''),
+	STR_MAN_PHONE_NO = REPLACE(STR_MAN_PHONE_NO, '-', '');
+END //
+
+DELIMITER 

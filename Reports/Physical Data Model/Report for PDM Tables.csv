@@ -1,0 +1,6 @@
+Table Physical_Name,Comment
+SALES_FACTS,Important measures that can later be utilized in the development of Key Performance Indicators (KPIs). 
+PRODUCTS,"Any type of good (shirt, pants, shoes, survival gear, etc.) that is sold at one of the two thousand GOAC retail store locations."
+CUSTOMERS,Any person or corporate organization that makes a purchase from a GOAC retail store location. 
+STORE,A retail facility where products are housed and displayed so customers can purchase said products. 
+TIMES,A dimension that is utilized to monitor store and overall company efficiency

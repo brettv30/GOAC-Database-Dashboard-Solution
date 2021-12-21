@@ -1,0 +1,5 @@
+Relationship Name,Definition
+Customer/Sales Facts,This is the relationship between how much money a customer spends on a product(s) and how many products they purchase in the store at any given time. 
+Product/Sales Facts,This is the relationship between the amount of products that are flowing throughout any given store at any given time. 
+Store/Sales Facts,The relationship that shows how valuable a retail store is to GOAC's managers. 
+Time/Sales Facts,This is the relationship where the GOAC corporation can measure millions of different KPIs for upper management's needs. 

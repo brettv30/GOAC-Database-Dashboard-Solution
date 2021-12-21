@@ -1,0 +1,45 @@
+Attribute/Column Name,Definition
+Customer Identifier,This is a sequential generated key for the purposes of uniquely identify a customer.  The key is not to be displayed to end-users.
+Product Identifier,This is a sequential generated key for the purpose of uniquely identify a product.  The key is not to be displayed to end-users.
+Sales Unit Price Amount,The sales amount per unit (price of each item)
+Sales Quantity Number,The number of items included in each sale as found in the source system.
+Sales Unit Cost Amount,The allocated cost amount per unit as found on each sales record from the source system.
+Sales Gross Profit Amount,The difference between the price and cost of each items.  This must be calculated during loading.
+Sales Promotion Indicator,"An indicator to flag a sale as part of a promotion.  Valid values are: ""Y"" - Yes, it was part of a promotion ""N""- No, it was not part of a promotion."
+Store Identifier,This is a sequential generated key for the purpose of uniquely identify a store.  The key is not to be displayed to end users.
+Time Day Identifier,This is a sequential generated key for the purpose of uniquely identify a day.  The key is not to be displayed to end users.
+Product Identifier,This is a sequential generated key for the purpose of uniquely identify a product.  The key is not to be displayed to end-users.
+Product Name,The marketing name of a product.
+Product SKU Number,The Stock Keeping Unit (SKU) number of an individual packaging of a product.   Since a SKU number could be repeated across the various source systems (non-unique). The SKU number is not used as the primary key.
+Product Line Code,"A code assigned to all products within a given product line as presented by the source system.  I.e, Miller, Budweiser and Heineken are all in the product line ""BR"" for beer."
+Product Category Code,"A code assigned to all products within a given product category as presented by the source system.  I.e, Miller, Budweiser, Heineken, 1/2 gallon milk, and 1 liter apple juice are all in the product line ""D"" for drinkables."
+Product Package Size Number,"This is the number of units sold in each package size.  For most products this will be equal to ""1"", but for others this may be different.  I.e. Budweiser may be sold as a single beer, it is then coded ""1"". If Budweiser is sold as a six-pack this is coded ""6""."
+Product Introduction Date,The date a product was first introduced. represented as mm/dd/yyyy.
+Customer Identifier,This is a sequential generated key for the purposes of uniquely identify a customer.  The key is not to be displayed to end-users.
+Customer Number,"This is the customer number used by the source system to identify a customer. Since the data warehouse may have many source systems with duplicate keys, the data warehouse use an internal generated primary key, while the native key is stored here."
+Customer Name,The legal name of a customer.
+Customer Street Address,"The physical street, P.O. box, or suite address of a customer."
+Customer Postal Code,"This is a code used by the postal authorities to locate an address. In the US, this is the zip code, while in other countries it may also contain characters."
+Customer State Code,The state code of a customer’s residence. I.e. FL for Florida and NC for North Carolina.
+Customer Phone Number,The phone number of a customer absent of non-numerical characters.  I.e. the phone number 011-46 (704) 123-1234 is stored as 011467041231234.
+Customer Birth Date,"The date of birth of a customer, using the Julian calendar, in the format of mm/dd/yyyy. I.e, 06/26/1966 for June 26, 1966."
+Customer Income Code,"This code is used to classify the customer as a ""H"" for High if the customer has a  yearly income above $55,000;   ""M"" for Medium if the customer has a  yearly income above $40,000;   ""L"" for Low if the customer has a  yearly income above $15,000;   ""P"" for Poor if the customer has a  yearly income less than $15,000;"
+Customer Level Code,"This code is used to classify the customer as a ""G"" for Gold customer if the customer has purchased goods during the last two years for more than $1,000; ""S"" for Silver customer if the customer has purchased goods during the last two yeard for more than $500; ""B"" for Bronze customer if the customer has purchased goods during the last two years for more than $100;"
+Store Identifier,This is a sequential generated key for the purpose of uniquely identify a store.  The key is not to be displayed to end users.
+Store Number,"This is the store number used by the source system to identify a store.   Since the data warehouse may have many source systems with duplicate keys, the data warehouse use an internal generated primary key, while the native key is stored here."
+Store Name,"The legal name of a store, or organization as recognized by the tax authorities."
+Store Street Address,"The physical street, P.O. box, or suite address of a store."
+Store City Name,"The city, town or municipality name where a store is located, as identified by the postal address."
+Store State Code,The state code of a store.  I.e. FL for Florida and NC for North Carolina.
+Store Postal Code,"This is a code used by the postal authorities to locate an address. In the US, this is the zip code, while in other countries it may also contain characters."
+Store Manager Name,The name of the most senior individual in a store as recognized by the organizational hierarchy.
+Store Manager Phone Number,The phone number of a store manager absent of non-numerical characters.  I.e. the phone number 011-46 (704) 123-1234 is stored as 011467041231234.
+Store Level Code,"This code is used to classify the store as a ""M"" for Max store if the total square meter of floor space exceeds 5,000.  ""R"" for Regular store if the total square meter of floor space exceeds 2,500.  ""S"" for Small store if the total square meter of floor space is less than 2,500."
+Store Start Date,"The date a store was established, using the Julian calendar, in the format of mm/dd/yyyy. I.e, 06/26/1966 for June 26, 1966."
+Time Day Identifier,This is a sequential generated key for the purpose of uniquely identify a day.  The key is not to be displayed to end users.
+Time Week Day Number,"This is the number of the day of the week. I.e. Monday is ""1""; Tuesday is ""2"" etc.   The number are reset for each week, so that all Monday's will start with ""1"" and all Tuesdays with ""2""... etc."
+Time Month Number,"This is the number of a calendar month from 1 to 12. Where January is ""1"" and February is ""2"" etc..."
+Time Quarter Number,"This is the quarter of a calendar year, where  January, February and March is ""1"";  April, May and June is ""2"";  July, August and September is ""3"";  October, November and December is ""4""."
+Time Year Number,"This is the four digit year number used in the Julian calendar, represented as ""1999"", ""2000"", and ""2001"", etc..."
+Time Display Date,"This is the date of the Julian day. represented as ""mm/dd/yyyy"",   I.e, ""06/26/1966"" for June, 26, 1966."
+Time Julian Date,"This is a sequential number for numbering the days, starting with ""1"" for the day of 1/1/1900, and ""2"" for the day of 1/2/1900, etc."

@@ -1,0 +1,6 @@
+Entity Name,Definition
+Sales Facts,Important Measures that can later be utilized in the development of Key Performance Indicators (KPIs). 
+Product,"Any type of good (shirt, shoes, pants, survival gear, etc.) that is sold at one of the two thousand GOAC store locations. "
+Customer,Any person or corporate organization that makes a purchase from a GOAC retail store location. 
+Time,A dimension that is utilized to monitor store and overall company efficiency. 
+Store,A retail facility where products are housed and displayed so customers may use their money to purchase said products. 

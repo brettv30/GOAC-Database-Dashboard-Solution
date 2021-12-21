@@ -1,0 +1,5 @@
+Relationship Name,Child-To-Parent Phrase,Definition,Parent-to-Child Phrase
+Customer/Sales Facts,must belong to one and only one ,This is the relationship between how much money a customer spends on a product(s) and how many products they purchase in the store at any given time. ,can have multiple
+Product/Sales Facts,are driven by ,This is the relationship between the amount of products that are flowing throughout any given store at any given time. ,is controlled by
+Store/Sales Facts,determine the operation of the ,The relationship that shows how valuable a retail store is to GOAC. ,has value based on
+Time/Sales Facts,vary based on ,This is the relationship where the GOAC corporation can measure millions of different KPIs for upper management's needs. ,is a dimension of
