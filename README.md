@@ -38,3 +38,10 @@ For this final project, we were tasked with creating a database and dashboard so
 
 ### Job 9: Create Calculate Key Figures
 - Create the Sales Gross Profit Amount column within the Sales Facts table
+
+## Tableau Dashboards
+### Customer - Unit Analysis
+![fourth image](https://github.com/brettv30/GOAC-Database-Dashboard-Solution/blob/main/images/Cust-Unit-Analysis.png)
+
+### Store Profit Comparison
+![fifth image](https://github.com/brettv30/GOAC-Database-Dashboard-Solution/blob/main/images/Store-Profit-Comp.png)
